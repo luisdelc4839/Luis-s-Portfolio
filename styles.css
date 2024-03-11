@@ -231,6 +231,24 @@ body, html {
     transition: transform 0.3s ease;
     position:relative;
 }
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .project-container {
+        justify-content: center; /* Center the items */
+    }
+
+    .project-item {
+        width: calc(50% - 15px); /* Adjust width for 2 items per row on medium screens */
+        margin: 7.5px; /* Adjust margin for consistent spacing */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .project-item {
+        width: calc(100% - 30px); /* Full width for smaller screens */
+        margin: 15px; /* Adjust margin for consistent spacing */
+    }
+}
 
 .project-item:hover {
     transform: translateY(-10px);
