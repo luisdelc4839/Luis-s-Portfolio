@@ -6,7 +6,6 @@
     <title>Luis's Portfolio</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    <script src="https://kit.fontawesome.com/your_kit_code.js" crossorigin="anonymous"></script>
     <link rel="icon" href="https://i.postimg.cc/vZMVHWRn/image-removebg-preview.png" type="image/png">
 </head>
 <body>
@@ -25,8 +24,8 @@
             <p>El Paso Texas, USA</p>
         </div>
         <div class="job-status">
-            <p>McDonald's Upcoming Software Engineer Intern 2024</p>
-            <img src="https://i.postimg.cc/tJsBtQHb/image.png" alt="McDonald's Logo" class="mcd-logo" />
+            <p>The University of Texas at El Paso</p>
+            <img src="https://i.postimg.cc/h40zszTS/image.png" alt="McDonald's Logo" class="utep-logo" />
         </div>
                 
         <div class="resume">
@@ -107,7 +106,7 @@
                         <h3>Image Slicing Computer Vision</h3>
                         <p>Developed an approach to increase computer vision algorithms utilizing a slicing technique.
                         </p>
-                        <a href="https://www.dropbox.com/scl/fi/3a29vjvnqweiktxgkcf28/posterluisdelcampo.pptx?rlkey=ah4q4y6c0250e5984u95f05f8&dl=1" class="project-link">
+                        <a href="https://www.dropbox.com/scl/fi/8etq12aijz3mhtzlamjzq/posterluisdelcampo-3.pdf?rlkey=a5holex4u8w1np303frurwizy&dl=1" class="project-link">
                             <button id="fileProject">
                                 File
                                 <span class="material-symbols-outlined projectlink-icon">
@@ -206,11 +205,38 @@
         <br>
         <div class="socials">
             <h2>Socials
-                <span class="material-symbols-outlined projects-icon">
-                    share
-                </span>
+                <span class="material-symbols-outlined projects-icon">share</span>
             </h2>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/luis-del-campo-266223226/" target="_blank" class="social-link">
+                    <img src="https://i.postimg.cc/Xvrg5Kz1/image.png" alt="LinkedIn">
+                    <span>LinkedIn</span>
+                </a>
+                <a href="https://github.com/luisdelc4839" target="_blank" class="social-link">
+                    <img src="https://i.postimg.cc/R0tH9g8m/image.png" alt="GitHub">
+                    <span>GitHub</span>
+                </a>
+            </div>
         </div>
+
+        <div class="email">
+            <h2>Email
+                <span class="material-symbols-outlined email-icon">mail</span>
+            </h2>
+            <div class="email-container">
+                <input type="text" id="emailAddress" value="lldelcampo@miners.utep.edu" readonly>
+                <div class="email-actions">
+                    <a href="mailto:lldelcampo@miners.utep.edu" class="email-action">
+                        <span class="material-symbols-outlined">send</span> <!-- Replace with appropriate send icon -->
+                    </a>
+                    <button class="email-action" onclick="copyEmail()">
+                        <span class="material-symbols-outlined">content_copy</span>
+                        <span class="tech-name">HTML</span> <!-- Replace with appropriate copy icon -->
+                    </button>
+                </div>
+            </div>
+        </div>        
+        
     </div>
     <script src="config.js"></script>
 </body>

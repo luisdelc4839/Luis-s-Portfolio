@@ -62,10 +62,11 @@ body, html {
     flex-grow: 1; /* ensures the paragraph takes up the available space */
 }
 
-.mcd-logo {
-    height: 20px; /* Adjust size as needed */
+.utep-logo {
+    height: 50px; /* Adjust size as needed */
     width: auto; /* Maintain aspect ratio */
     margin-left: 10px; /* space between text and logo */
+    margin-top:-20px;
 }
 
 
@@ -308,6 +309,9 @@ body, html {
     font-family: "Plus Jakarta Sans", sans-serif;
     border-radius: 10px;
     font-weight: bold;
+    background-color: #6366F1;
+    border:none;
+    color:white;
 }
 
 #fileProject {
@@ -325,13 +329,105 @@ body, html {
     margin-left: 2px; /* Space between text and icon */
     vertical-align: middle; /* Align icon with the middle of the text */
     padding-bottom:5px;
-    color:black;
+    color:white;
     font-size: 35px !important; /* Adjust this value as needed */
 }
 
 #fileProject:hover .projectlink-icon {
     transform: rotate(50deg); /* Rotates the icon 90 degrees to the right */
 }
-.socials{
+.socials {
+    text-align: left;
+    margin-top: 20px;
     color:white;
+    width:100;
+}
+
+.social-links {
+    display: flex;
+    justify-content: left;
+    gap: 20px;
+    margin-top: 10px;
+    
+}
+
+.social-link {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    text-decoration: none;
+    background-color: #1F2937;
+    padding: 15px 20px; /* Increased padding for larger button size */
+    border-radius: 5px;
+    border: 2px solid #94A3B8; /* initial border */
+    transition: box-shadow 0.3s ease, transform 0.3s ease, border-width 0.3s ease; /* smooth transition */
+}
+
+.social-link img {
+    width: 24px; /* Adjust size as needed */
+    height: 24px;
+}
+
+.social-link span {
+    color: #fff;
+    font-weight: bold;
+}
+
+.social-link:hover {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    border-width: 4px; /* thicker border on hover */
+}
+
+.email-icon{
+    margin-left: 8px; /* Space between text and icon */
+    vertical-align: middle; /* Align icon with the middle of the text */
+    padding-bottom:5px;
+    font-size: 35px !important;
+}
+.email {
+    font-size: 1.2rem;
+    color:white;
+    margin-top:80px;
+}
+
+.email-container {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    
+}
+
+#emailAddress {
+    background-color: #334155;
+    padding: 10px 15px; /* Increased padding for a larger field */
+    border-radius: 4px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: bold;
+    width: 400%;
+    border:none;
+    color:white;
+    margin-top:-15px;
+}
+
+.email-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.email-action {
+    background-color: #6366F1; /* Indigo color */
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none; /* Remove underline from link */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:-15px;
+}
+
+.email-action:hover {
+    background-color: #3730a3; /* Darker indigo */
 }
