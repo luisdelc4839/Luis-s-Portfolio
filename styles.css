@@ -155,9 +155,7 @@ body, html {
     color: #fff;
 }
 
-.projects li a:hover {
-    text-decoration: underline;
-}
+
 
 .title-icon{
 
@@ -207,6 +205,70 @@ body, html {
     width: 30px;            /* Adjust as necessary for your logo */
     height: auto;
     border-radius:30%;           /* Keeps the aspect ratio of the logo */
+}
+.projects-icon{
+    margin-left: 8px; /* Space between text and icon */
+    vertical-align: middle; /* Align icon with the middle of the text */
+    padding-bottom:5px;
+}
+
+.projects {
+    text-align: left;
+}
+
+.project-container {
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    margin-left:-20px;
+    width
+}
+
+.project-item {
+    margin: 15px;
+    width: 300px;
+    width: calc(33% - 30px); /* Adjust width for 3 items per row */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.project-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.project-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.project-info {
+    padding: 10px;
+    color:white;
+}
+
+.project-info h3 {
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+
+.project-info p {
+    font-size: 0.9em;
+    color: #fff;
+}
+
+.project-tech {
+    margin-top: 10px;
+}
+
+.project-tech img {
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
 }
 
 
