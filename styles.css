@@ -332,3 +332,6 @@ body, html {
 #fileProject:hover .projectlink-icon {
     transform: rotate(50deg); /* Rotates the icon 90 degrees to the right */
 }
+.socials{
+    color:white;
+}
