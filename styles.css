@@ -89,6 +89,7 @@ body, html {
     position: relative;
     overflow: hidden; /* To contain the shine effect within the button borders */
     transition: all 0.3s ease; /* Smooth transition for hover effects */
+    margin-top:60px;
 }
 .resume a::after {
     content: '';
@@ -111,7 +112,7 @@ body, html {
 
 .resume{
     border-bottom: 1px dotted #ccc; /* Example style: 2px dotted line with light grey color */
-    margin-bottom: 50px; /* Add some space below the line */
+    margin-bottom: 100px; /* Add some space below the line */
 }
 .resume-icon{
     margin-left: 3px;
@@ -196,9 +197,17 @@ body, html {
     padding-bottom:5px;
 }
 #positionTitle{
-    color:gray;
+    color:#94A3B8;
     font-size:15px;
     margin-top:-5px;
 }
+.logo {
+    vertical-align: middle; /* Aligns the logo with the middle of the text */
+    margin-right: 10px;     /* Adds some space between the logo and the text */
+    width: 30px;            /* Adjust as necessary for your logo */
+    height: auto;
+    border-radius:30%;           /* Keeps the aspect ratio of the logo */
+}
+
 
 
